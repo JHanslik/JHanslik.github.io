@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+
+
+
+aside {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    width: 33.33%;
+    height:auto;
+}
+aside .me .photo {
+    display: flex;
+    justify-content: center;
+}
+aside .me .photo a img {
+    justify-self: space-around;
+    border-radius: 50%;
+}
+aside h1 {
+    color: bisque;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+}
+aside .tel, aside .mail, aside a {
+    font-size: 18px;
+    text-decoration: none;  
+    line-height: 25px;
+    /* min-width: 730px; */
+}
+aside .imagetel, aside .imagemail {
+    display: none;
+}
+aside .me .social {
+    display:flex;
+    justify-content:space-evenly;
+}
+aside .progressbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+aside .progressbarcss {
+    accent-color: bisque;
+    height: 40px;
+}
+aside h2 {
+    color: bisque;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+    padding-top: 25px;
+    border-top: 5px solid bisque;
+}
+aside h3 {
+    color: bisque;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 0 25px 0;
+    padding-top: 25px;
+    border-top: 5px solid bisque;
+}
+aside p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 15px 0 15px 0;
+}
+
+
+
+
+main {
+    background-color: rgb(252, 244, 234);
+    height: auto;
+    font-weight: 600;
+    padding: 0 10% 0 10%;
+    width: 66.66%;
+}
+main h3 {
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 25px 0 25px 0;
+    width: 100%;
+
+}
+main h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+main h5 {
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+main .konexio {
+    text-decoration: none;
+}
+main .school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main .school article {
+    margin: 25px 0 25px 0;
+    align-content: center;
+}
+main .experiencepro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main .experiencepro article {
+    margin: 25px 0 25px 0;
+}
+main .interetsetloisirs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main li {
+    margin: 25px 0 25px 0;
+    font-size: 20px;
+}
