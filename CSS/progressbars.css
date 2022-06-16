@@ -1,0 +1,106 @@
+.circular{
+    height:100px;
+    width: 100px;
+    position: relative;  
+    margin: 40px 0;
+}
+.circular .inner{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background: white;
+    border-radius: 100%;
+}
+.number img {
+    width: 50px;
+}
+.circular .number{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    font-size:18px;
+    font-weight:500;
+    color:black;
+}
+.circular .bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 100px, 100px, 50px);
+}
+
+/* PROGRESS COLOR */
+/* LANGAGES */
+.html5 .circle .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: #fc490b;
+}
+.css3 .circle .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: #2196f3;
+}
+.javascript .circle .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: #ffda3d;
+}
+
+/* LANGUES */
+.french .circle .bar .progress, 
+.english .circle .bar .progress, 
+.spanish .circle .bar .progress, 
+.portuguese .circle .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: rgb(23,35,185);
+}
+.html5, .css3, .javascript, .french, .english, .spanish, .portuguese {
+    width: 100px;
+}
+
+
+.circle .left .progress{
+    z-index:1;
+    animation: left 1s linear both;
+}
+@keyframes left{
+    100%{
+      transform: rotate(180deg);
+    }
+}
+.circle .right {
+    transform: rotate(180deg);
+    z-index:3;
+   
+}
+.circle .right .progress{
+    animation: right 1s linear both;
+    animation-delay:1s;
+}
+@keyframes right{
+    100%{
+      transform: rotate(180deg);
+    }
+}

@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 header {
     background-color: rgb(0, 0, 0, 0);
 }
@@ -26,9 +29,73 @@ main .about {
     height: 80vh;
 }
 main .about img {
-    width: 300px;
+    width: 400px;
+}
+
+main .backgroundnow {
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../Media/img/backgroundnow.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main .now {
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0 50px 0;
+}
+main .now a {
+    height: 50px;
+}
+main .now img {
+    width: 200px;
 }
 
 
+main .skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 150vh;
+}
+main section.skills article.skillbars div.langages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section.skills article.skillbars div.langues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .skills .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .skills h2 {
+    width: 550px;
+    margin-top: 50px;
+}
+main .skills p {
+    width: 550px;
+}
+main .skills .skillbars {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .resume img {
+    width: 600px;
+    margin-bottom: 30px;
+}
 
 
