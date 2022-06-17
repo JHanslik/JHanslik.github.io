@@ -142,18 +142,18 @@ footer img:hover {
         text-align: justify;
     }
     main .about img {
-        width: 100%;
+        width: 90%;
     }
     main #about p,
     main #skills p,
     main #portfolio p {
-        width: 100%;
+        width: 90%;
         text-align: justify;
     }
     main .resume img {
-        width: 100%;
+        width: 90%;
     }
     #carouselPortfolio {
-        width: 100%;
+        width: 90%;
     }
 }
