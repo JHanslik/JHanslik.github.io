@@ -147,4 +147,7 @@ footer img:hover {
         width: 100%;
         text-align: justify;
     }
+    main .resume img {
+        width: 100%;
+    }
 }
