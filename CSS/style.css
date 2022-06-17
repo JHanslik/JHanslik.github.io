@@ -15,15 +15,18 @@ main .botheader {
 main .portrait {
     width: 200px;
 }
+main .botheader h1 {
+    width: 300px;
+}
 
 main .about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+    padding: 50px 0;
 }
+
 main .about img {
+    width: 50%;
+}
+main .about p {
     width: 50%;
 }
 
@@ -76,6 +79,7 @@ main .skills h2 {
 }
 main .skills p {
     width: 50%;
+    text-align: center;
 }
 main .skills .skillbars {
     display: flex;
@@ -104,9 +108,35 @@ main .portfolio {
     color: white;
     padding: 50px 0; 
 }
+main .portfolio p {
+    text-align: center;
+}
 main .portfolio .carousel-caption, main .carousel-control-prev, main .carousel-control-next {
     background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) );
 }
 
+footer {
+    padding: 50px 0 100px; 
+}
+
+footer img {
+   width: 60%;
+   transition-duration: 0.5s;
+   padding: 40px 0;
+}
+footer img:hover {
+    width: 75%;
+    transition-duration: 0.5s;
+    padding: 40px 0;
+}
 
 
+@media (max-width: 768px) {
+    main .about {
+        flex-direction: column;
+        text-align: justify;
+    }
+    main .about img {
+        width: 100%;
+    }
+}

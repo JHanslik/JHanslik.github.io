@@ -13,17 +13,17 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Julien HANSLIK</a>
+          <a class="navbar-brand" href="#header">Julien HANSLIK</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              <a class="nav-link active" aria-current="page" href="#header">Accueil</a>
               <a class="nav-link" href="#about">Profil</a>
               <a class="nav-link" href="#skills">Compétences</a>
               <a class="nav-link" href="#portfolio">Portfolio</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
 
             </div>
           </div>
@@ -33,25 +33,30 @@
 
 
     <main>
-      <section class="botheader d-flex flex-column justify-content-center align-items-center vh-100">
+      <section id="header" class="botheader d-flex flex-column justify-content-center align-items-center vh-100">
         <img src="Media/img/Photo-JH.jpg" class="portrait rounded-circle" alt="Portrait Julien Hanslik">
         <h1 class="h2 text-center">Développeur Web/Webmobile Fullstack Junior</h1>
       </section>
 
 
-      <section id="about" class="about container">
+      <section id="about" class="about container d-flex justify-content-center align-items-center flex-wrap">
         <h2 class="text-center w-100">À PROPOS DE MOI</h2>
         <div class="w-50 text-center">            
           <img src="Media/img/aboutjh.jpg" alt="Julien">
         </div>
-        <p class="w-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores velit quaerat quasi iste unde soluta maiores pariatur error enim nesciunt, nulla natus vitae eius architecto corporis recusandae voluptates officiis! Reiciendis.</p>
+        <p class="w-50">Bonjour !</br>
+                        Je m'appel Julien Hanslik, développeur Web/Web mobile en devenir !</br>
+                        J'étais auparavant dans le monde de l'aéronautique où j'ai évolué de mécanicien jusqu'à pilote de ligne. Ce parcours m'a permis d'acquérir certaines compétences qui me semblent essentielles telles que la rigueur, le trvail d'équipe, la gestion du stress. </br>
+                        À la fin de ma formation de pilote en fin d'année dernière, la crise sanitaire ayant interrompu les vols, je me suis retrouvé à faire des jobs alimentaires. C'est alors que j'ai découvert le monde du développement Web et ce fut pour moi une grande surprise ! </br>
+                        J'ai eu beaucoup de plaisir à voir une page prendre forme et c'est pourquoi j'ai pris la décision de suivre une formation de développement web et web mobile pour pouvoir en faire mon métier. </br>
+                        </p>
       </section>
 
       <section class="backgroundnow">
         <article class="now container">
           <h2 class="text-center">En ce moment :</h2>
           <p class="text-center">Étudiant chez Konexio en recherche d'alternance.</p>
-          <a href="https://www.konexio.eu/a-propos.html">          
+          <a href="https://www.konexio.eu/a-propos.html" target="_blank">          
             <img src="Media/img/LogoKonexio.png" alt="Logo Konexio">
           </a>
         </article>
@@ -61,7 +66,9 @@
       <section id="skills" class="skills container">
         <article class="title w-100">
           <h2 class=>COMPÉTENCES</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed error aut, commodi deleniti minus aliquid? Sequi magni quis, omnis velit dolores cupiditate laboriosam, unde ipsum dolorem nemo, quo fugit architecto.</p>
+          <p>Étant tout nouveau dans le milieu du développement web, mes compétences liés à ce dernier continu et continuerons à se développer tout au long de ma carrière en pratiquant une veille technologique.</br>
+             D'ici mi-septembre je serais en bootcamp chez Konexio où j'y apprendrais le Javascript, JQuery, ReactJS, ReactNative, Node.JS/Express et SQL. </br>
+             Mon Portfolio sera donc amené à changer et se fournir régulièrement d'ici là, n'hésitez pas à revenir jeter un oeil de temps en temps ! ;)</p>
         </article>
         
         <article class="resume w-100">
@@ -76,15 +83,26 @@
       <section id="portfolio">
         <article class="portfolio container text-center">          
           <h2 class="w-100">Portfolio</h2>
-          <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus excepturi neque! Ut excepturi facilis mollitia libero, ipsum officia, vero delectus incidunt sapiente dignissimos minus, saepe aut eius dolor consequuntur.</p>
+          <p class="w-50">Voici les projets que j'ai pû achevé depuis le début de mon aventure dans le développement web vers mi-mars 2022.</br>
+                          Vous trouverez la date de fin de projet en description de chaque image pour pouvoir suivre mon évolution !</p>
           <div id="carouselPortfolio" class="carousel slide w-75" data-bs-ride="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
+                <a href="https://jhanslik.github.io/Konexio/" target="_blank">                
+                  <img src="Media/img/selkonexioweb.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>VerFive</h5>
+                    <p>Test d'entré chez Konexio (30/03/22).</p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
                 <a href="https://jhanslik.github.io/cvjhanslik/" target="_blank">                
                   <img src="Media/img/cvjhanslikweb.png" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
@@ -123,6 +141,24 @@
           </div>
         </article>
       </section>
+
+
+      <footer id="contact" class="container d-flex justify-content-evenly align-items-center text-center flex-wrap">
+        <h2 class="w-100">Contactez moi et visitez mes différends réseaux !</h2>
+        <a href="tel:0033679901523" class="w-25">
+          <img src="Media/img/smartphone.png" alt="+33 6 79 90 15 23">
+        </a>
+        <a href="mailto:julien.hanslik@gmail.com" class="w-25">
+          <img src="Media/img/mail.png" alt="julien.hanslik@gmail.com">
+        </a>
+        <a href="https://www.linkedin.com/in/jhanslik/" target="_blank" class="w-25">
+          <img src="Media/img/linkedin.png" alt="https://www.linkedin.com/in/jhanslik/">
+        </a>
+        <a href="https://github.com/JHanslik" target="_blank"class="w-25">
+          <img src="Media/img/github.png" alt="https://github.com/JHanslik">
+        </a>
+
+      </footer>
       
     </main>
 
