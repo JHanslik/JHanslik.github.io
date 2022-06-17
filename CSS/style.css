@@ -116,6 +116,9 @@ main .portfolio p {
 main .portfolio .carousel-caption, main .carousel-control-prev, main .carousel-control-next {
     background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) );
 }
+#carouselPortfolio {
+    width: 75%;
+}
 
 footer {
     padding: 50px 0 100px; 
@@ -148,6 +151,9 @@ footer img:hover {
         text-align: justify;
     }
     main .resume img {
+        width: 100%;
+    }
+    #carouselPortfolio {
         width: 100%;
     }
 }
