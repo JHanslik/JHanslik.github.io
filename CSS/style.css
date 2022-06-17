@@ -4,13 +4,8 @@
 header {
     background-color: rgb(0, 0, 0, 0);
 }
-header h2 {
-    color: white;
-    font-size: 40px;
-}
-header li {
-    font-size: 20px;
-}
+
+
 main .botheader {
     background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../Media/img/background.jpg) no-repeat;
     background-size: cover;
@@ -29,7 +24,7 @@ main .about {
     height: 80vh;
 }
 main .about img {
-    width: 400px;
+    width: 50%;
 }
 
 main .backgroundnow {
@@ -59,7 +54,7 @@ main .skills {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    height: 150vh;
+    padding: 50px 0;
 }
 main section.skills article.skillbars div.langages {
     display: flex;
@@ -77,11 +72,10 @@ main .skills .title {
     align-items: center;
 }
 main .skills h2 {
-    width: 550px;
-    margin-top: 50px;
+    width: 50%;
 }
 main .skills p {
-    width: 550px;
+    width: 50%;
 }
 main .skills .skillbars {
     display: flex;
@@ -94,13 +88,25 @@ main .resume {
     align-items: center;
 }
 main .resume img {
-    width: 600px;
+    width: 50%;
     margin-bottom: 30px;
 }
 
 
-main .portfolio {
-    
+main #portfolio {
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../Media/img/backgroundnow.jpg) no-repeat;
+
 }
+main .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 50px 0; 
+}
+main .portfolio .carousel-caption, main .carousel-control-prev, main .carousel-control-next {
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) );
+}
+
 
 

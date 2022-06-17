@@ -10,26 +10,24 @@
     <link rel="stylesheet" href="CSS/progressbars.css">
 </head>
 <body>
-    <header class="container navbar fixed-top navbar-light">
-      <h2>Julien HANSLIK</h2>
-      <nav class=" ">
-        <ul class="nav nav-pills">
-          <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Profil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Compétences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Contact</a>
-          </li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Julien HANSLIK</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              <a class="nav-link" href="#about">Profil</a>
+              <a class="nav-link" href="#skills">Compétences</a>
+              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#">Contact</a>
+
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -66,133 +64,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed error aut, commodi deleniti minus aliquid? Sequi magni quis, omnis velit dolores cupiditate laboriosam, unde ipsum dolorem nemo, quo fugit architecto.</p>
         </article>
         
-        <article class="skillbars w-50">
-
-          <!-- PROGRESS LANGAGES -->
-
-          <div class="langages">
-            <h3>LANGAGES</h3>
-            <div class="html5">            
-              <div class="circular">
-                <div class="inner"></div>
-                <div class="number">
-                  <img src="./Media/img/html-5.png" alt="React">
-                </div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="css3">            
-              <div class="circular">
-                <div class="inner"></div>
-                <div class="number">
-                  <img src="./Media/img/css.png" alt="React">
-                </div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="javascript">            
-              <div class="circular">
-                <div class="inner"></div>
-                <div class="number">
-                  <img src="./Media/img/javascript-icon.jpg" alt="React">
-                </div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- LANGUES -->
-
-          <div class="langues">
-            <h3>LANGUES</h3>
-            <div class="french">            
-              <div class="circular">
-                <div class="inner"></div>
-                <div class="number">Français</div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="english">            
-              <div class="circular">
-                <div class="inner"></div>
-                <div class="number">Anglais</div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="spanish">            
-              <div class="circular">
-                <div class="inner"></div>
-                <div class="number">Espagnol</div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="portuguese">            
-              <div class="circular">
-                <div class="inner"></div>
-                <div class="number">Portugais</div>
-                <div class="circle">
-                  <div class="bar left">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-        </article>
-
-        <article class="resume w-50">
+        <article class="resume w-100">
           <img src="Media/img/CVjulienHanslikdev-1.jpg" alt="Resume JH">
           <a href="CV julien Hanslik dev.pdf" target="_blank">
             <button type="button" class="btn btn-dark">Télécharger CV</button>
@@ -201,8 +73,55 @@
       </section>
 
 
-      <section class="portfolio container">
-        <h2>Portfolio</h2>
+      <section id="portfolio">
+        <article class="portfolio container text-center">          
+          <h2 class="w-100">Portfolio</h2>
+          <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus excepturi neque! Ut excepturi facilis mollitia libero, ipsum officia, vero delectus incidunt sapiente dignissimos minus, saepe aut eius dolor consequuntur.</p>
+          <div id="carouselPortfolio" class="carousel slide w-75" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://jhanslik.github.io/cvjhanslik/" target="_blank">                
+                  <img src="Media/img/cvjhanslikweb.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>CV</h5>
+                    <p>Premier projet HTML/CSS (06/06/22).</p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://jhanslik.github.io/deezer-v1/" target="_blank">                
+                  <img src="Media/img/deezerv1web.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Deezer V1</h5>
+                    <p>Deuxième projet HTML/CSS (13/06/2022).</p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://jhanslik.github.io/Cui-zine/" target="_blank">                
+                  <img src="Media/img/cui'zineweb.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Cui'zine</h5>
+                    <p>Troisième projet HTML/CSS en groupe (16/06/2022).</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
       </section>
       
     </main>
